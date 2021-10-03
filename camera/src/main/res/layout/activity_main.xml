@@ -17,44 +17,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_title" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv_shutter"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginBottom="24dp"
+        android:tint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_camera_24" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv_flash"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/purple_200"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_change_camera"
         app:layout_constraintEnd_toStartOf="@id/iv_connect_thermometer"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/iv_change_camera"
+        app:srcCompat="@drawable/ic_baseline_flash_off_24" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv_connect_thermometer"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:background="@color/teal_700"
-        app:layout_constraintBottom_toBottomOf="@id/iv_flash"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_change_camera"
         app:layout_constraintEnd_toStartOf="@id/iv_change_camera"
         app:layout_constraintStart_toEndOf="@id/iv_flash"
-        app:layout_constraintTop_toTopOf="@id/iv_flash" />
+        app:layout_constraintTop_toTopOf="@+id/iv_change_camera"
+        app:srcCompat="@drawable/ic_thermometer_connect" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv_change_camera"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:background="@color/teal_700"
-        app:layout_constraintBottom_toBottomOf="@id/iv_flash"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:tint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/iv_connect_thermometer"
-        app:layout_constraintTop_toTopOf="@id/iv_flash" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_camera_front_24" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_title"
@@ -63,7 +68,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/bg_radius_8dp"
         android:paddingHorizontal="16dp"
-        android:paddingVertical="4dp"
+        android:paddingVertical="6dp"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"

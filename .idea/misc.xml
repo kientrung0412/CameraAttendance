@@ -4,7 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/CameraAttendance/app/src/main/res/layout/activity_main.xml" value="0.35833333333333334" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/bg_button_fill.xml" value="0.32037037037037036" />
         <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/bg_radius_8dp.xml" value="0.37447916666666664" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/circle_frame_background.xml" value="0.32037037037037036" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/circle_frame_background_dark.xml" value="0.32037037037037036" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/ic_thermometer.xml" value="0.32037037037037036" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/ic_thermometer_connect.xml" value="0.32037037037037036" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/start_video_record_button.xml" value="0.32037037037037036" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/stop_button_background.xml" value="0.32037037037037036" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/switch_camera_mode_selector.xml" value="0.32037037037037036" />
+        <entry key="..\:/CameraAttendance/camera/src/main/res/drawable/take_photo_button.xml" value="0.32037037037037036" />
         <entry key="..\:/CameraAttendance/camera/src/main/res/layout/activity_main.xml" value="0.35833333333333334" />
       </map>
     </option>
